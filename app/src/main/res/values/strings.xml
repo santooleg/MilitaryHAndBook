@@ -1,3 +1,8 @@
 <resources>
 	<string name="app_name">MilitaryHandBook</string>
+	<string name="USA">USA</string>
+	<string name="USSR">USSR</string>
+	<string name="UK">UK</string>
+	<string name="France">France</string>
+	<string name="Poland">Poland</string>
 </resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_usa"
+            android:icon="@drawable/ic_usa"
+            android:title="@string/USA" />
+        <item
+            android:id="@+id/id_ussr"
+            android:icon="@drawable/ic_ussr"
+            android:title="@string/USSR" />
+        <item
+            android:id="@+id/id_uk"
+            android:icon="@drawable/ic_uk"
+            android:title="@string/UK" />
+        <item
+            android:id="@+id/id_france"
+            android:icon="@drawable/ic_france"
+            android:title="@string/France" />
+        <item
+            android:id="@+id/id_poland"
+            android:icon="@drawable/ic_poland"
+            android:title="@string/Poland" />
+    </group>
+
+</menu>
