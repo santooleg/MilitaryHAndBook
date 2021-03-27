@@ -2,7 +2,10 @@
 	<string name="app_name">MilitaryHandBook</string>
 	<string name="USA">USA</string>
 	<string name="USSR">USSR</string>
+	<string name="German">German</string>
 	<string name="UK">UK</string>
+	<string name="Japan">Japan</string>
+	<string name="Italy">Italy</string>
 	<string name="France">France</string>
 	<string name="Poland">Poland</string>
 </resources>
