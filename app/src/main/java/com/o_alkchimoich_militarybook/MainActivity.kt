@@ -18,9 +18,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         var list = ArrayList<ListItem>()
 
-        list.add(ListItem(R.drawable.usa1, "Tank", "Ligtch"))
-        list.add(ListItem(R.drawable.usa2, "Tank", "Ligtch"))
-        list.add(ListItem(R.drawable.usa3, "Tank", "Ligtch"))
+        list.add(ListItem(R.drawable.usa1, "M1 'COMBAT CAR' ЛЕГКИЙ ТАНК", "Первый серийный американский легкий танк после 1918 года."))
+        list.add(ListItem(R.drawable.usa2, "M1 / T4, БРОНЕАВТОМОБИЛЬ", "Первый в истории бронеавтомобиль с самонесущим броневым кузовом построенный в 1932 г. фирмой Каннингхэм."))
+        list.add(ListItem(R.drawable.usa3, "M1, СРЕДНИЙ ТАНК", "Medium Tank M1 — опытный средний колёсно-гусеничныйтанк США 1930-х годов."))
+        list.add(ListItem(R.drawable.usa4,"M10 WOLVERINE."," ПРОТИВОТАНКОВАЯ САМОХОДНАЯ УСТАНОВКА."))
+        list.add(ListItem(R.drawable.usa5,"155 mm Gun Motor Carriage M12"," САМОХОДНАЯ АРТИЛЛЕРИЙСКАЯ УСТАНОВКА."))
+
 
         val rcView = findViewById<RecyclerView>(R.id.rcView)
         rcView.hasFixedSize()
