@@ -17,6 +17,7 @@ class MyAdapter(listArray: ArrayList<ListItem>, context: Context) :
 
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+
         val tvTitle = view.findViewById<TextView>(R.id.tvTitle)
         val tvContent = view.findViewById<TextView>(R.id.tvContent)
         val im = view.findViewById<ImageView>(R.id.im)
@@ -25,16 +26,16 @@ class MyAdapter(listArray: ArrayList<ListItem>, context: Context) :
             tvTitle.text = listItem.titleText
             tvContent.text = listItem.contentText
             im.setImageResource(listItem.image_id)
-            itemView.setOnClickListener(){
+            itemView.setOnClickListener() {
                 Toast.makeText(context, "Pressed : ${tvTitle.text}", Toast.LENGTH_SHORT).show()
             }
         }
-
     }
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val inflater = LayoutInflater.from(contextR)
-        return ViewHolder(inflater.inflate(R.layout.item_layout, parent, false))
+        return ViewHolder(inflater.inflate(R.layout.item_layout,parent,false))
     }
 
     override fun getItemCount(): Int {
