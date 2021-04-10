@@ -15,7 +15,8 @@
         <item
             android:id="@+id/id_german"
             android:icon="@drawable/ic_german"
-            android:title="@string/German" />
+            android:title="@string/German"
+            />
         <item
             android:id="@+id/id_uk"
             android:icon="@drawable/ic_uk"
